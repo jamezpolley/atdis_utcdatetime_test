@@ -95,11 +95,6 @@
                     }
                 ],
                 "documents": [
-                    {
-                        "ref": null,
-                        "title": null,
-                        "document_url": null
-                    }
                 ]
             }
         }
@@ -107,7 +102,7 @@
     "count": 1,
     "pagination": {
         "previous": null,
-        "next": 1,
+        "next": null,
         "current": 1,
         "per_page": 25,
         "count": 1,
