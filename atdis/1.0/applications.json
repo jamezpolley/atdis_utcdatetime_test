@@ -1,0 +1,116 @@
+{
+    "response": [
+        {
+            "application": {
+                "info": {
+                    "dat_id": "DA2018%2f00160",
+                    "development_type": "Residential Alterations and Additions",
+                    "application_type": "DA",
+                    "last_modified_date": "2018-08-22T00:15:16Z",
+                    "description": "Residential Alterations and Additions",
+                    "authority": {
+                        "ref": "https://jamezpolley.github.io/atdis_utcdatetime_test/atdis/1.0",
+                        "name": "City of Testing"
+                    },
+                    "lodgement_date": "2018-08-21T22:46:03Z",
+                    "determination_date": null,
+                    "determination_type": "AddInfo",
+                    "status": "C"
+                },
+                "reference": {
+                    "more_info_url": "https://jamezpolley.github.io/atdis_utcdatetime_test&ApplicationId=DA2018%2f00160"
+                },
+                "locations": [
+                    {
+                        "address": {
+                            "street": "1 Smith Street",
+                            "suburb": "Testville South",
+                            "postcode": "2123",
+                            "state": "NSW"
+                        },
+                        "land_title_ref": {
+                            "torrens": {
+                                "lot": "12",
+                                "section": null,
+                                "dpsp_id": "DP12345"
+                            }
+                        }
+                    }
+                ],
+                "events": [
+                    {
+                        "id": "1344452",
+                        "timestamp": "2018-08-21T22:46:03Z",
+                        "description": "Enter date received in finalised date"
+                    },
+                    {
+                        "id": "1344453",
+                        "timestamp": "2018-08-21T22:46:24Z",
+                        "description": "Complete application prechecklist"
+                    },
+                    {
+                        "id": "1344454",
+                        "timestamp": "2018-08-21T22:46:36Z",
+                        "description": "Refer to Duty officer"
+                    },
+                    {
+                        "id": "1344455",
+                        "timestamp": "2018-08-21T22:46:41Z",
+                        "description": "Reviewed by Duty Officer"
+                    },
+                    {
+                        "id": "1344456",
+                        "timestamp": "2018-08-21T22:46:48Z",
+                        "description": "Add email association to the application"
+                    },
+                    {
+                        "id": "1344457",
+                        "timestamp": "2018-08-21T22:46:56Z",
+                        "description": "Create additional applications"
+                    },
+                    {
+                        "id": "1344458",
+                        "timestamp": "2018-08-21T22:47:00Z",
+                        "description": "Payment? Enter processed date in finalised date"
+                    },
+                    {
+                        "id": "1344459",
+                        "timestamp": "2018-08-21T22:47:14Z",
+                        "description": "Produce acknowledgement letter and email?"
+                    },
+                    {
+                        "id": "1344469",
+                        "timestamp": "2018-08-21T23:02:57Z",
+                        "description": "Is an acknowledgement letter required?"
+                    },
+                    {
+                        "id": "1344470",
+                        "timestamp": "2018-08-21T23:03:34Z",
+                        "description": "Add email association to the application"
+                    },
+                    {
+                        "id": "1344507",
+                        "timestamp": "2018-08-22T00:12:28Z",
+                        "description": "Produce acknowledgement letter and email?"
+                    }
+                ],
+                "documents": [
+                    {
+                        "ref": null,
+                        "title": null,
+                        "document_url": null
+                    }
+                ]
+            }
+        }
+    ],
+    "count": 1,
+    "pagination": {
+        "previous": null,
+        "next": 1,
+        "current": 1,
+        "per_page": 25,
+        "count": 1,
+        "pages": 1
+    }
+}

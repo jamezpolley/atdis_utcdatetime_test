@@ -7,8 +7,8 @@ clean:
 	mv data.sqlite prev-data.sqlite || true
 
 build: clean scraper.rb Gemfile Gemfile.lock
-	docker image build -t newcastle_atdis_test_scraper .
+	docker image build -t atdis_test .
 
 run: build
 	docker-compose run scraper
-	docker cp newcastle_atdis_test_scraper_run_1:/app/data.sqlite .
+	docker cp atdis_test_run_1:/app/data.sqlite .
